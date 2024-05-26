@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poetsen+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+body{
+    background-color: #fff8ec;
+}
+
+
+/* ######################## Navbar Styling ########################## */
+
+/* #e2f6fa */
+/* #fff8ec */
+/* #dabc9a */
+/* #debfa0 */
+/* #fff8ec */
+/* #fff8ed */
+/* #ffffff */
+/* #5e0f12  for text color*/
+
+.navbar{
+    box-shadow: 0px 0px 10px 0px #aaa;
+    position: fixed;
+    width: 80%;
+    opacity: 0.85;
+    z-index: 99;     
+    background-color: #fff8ec;
+    height: 10vh;
+    margin: 4vh 10% 0 10%;
+    border-radius: 1.1rem;
+}
+
+.navbar-container{
+    display: flex;
+    padding: 0vh 40px 0px 40px;
+    justify-content: space-between;
+    height: 10vh;
+    align-items: center;
+}
+
+.logo{
+    flex-basis: 1;
+    padding-top: 4vh;
+    align-self: center;
+}
+
+.logo img{
+    height: 18vh;
+    width: 8vw;
+
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+
+}
+
+a:link{
+    color: #001c49;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #00bad5;
+    text-decoration: none;
+}
+
+/* ################### Showcase Styling ################# */
+
+.showcase-area{
+    height: 85vh;
+    background: #e2f6fa;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.showcase-container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.showcase-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.showcase-heading{
+    align-self: center;
+    text-align: center;
+
+}
+.showcase-img img{
+    height: 85vh;
+    border-radius: 0 0 0 10vh;
+}
+
+.showcase-container h1,h3{
+    color:#001c49;
+    font-size: 3rem;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+}
+
+.showcase-container h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: .8vh ;
+}
+
+.showcase-container h4{
+    color:#001c49;
+    font-size: 1.5rem;
+    margin-top: 4vh;
+    padding-left: 3vw;
+}
+
+.scoop-button{
+    margin: 6vh 0 0 7vw;
+
+}
+
+.scoop-button input[type="submit"]{
+    background: #001c49;
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: .8rem;
+    border-radius: .7rem;
+    margin: 15px 0px 0px 0px;
+}
+
+.scoop-button input[type="submit"]:hover{
+    box-shadow: 2px 2px 2px 2px #153974;
+}
+
+/* ################### Flavour Styling ################### */
+
+.flavour-container{
+    display: flex;
+    height: 80vh;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 1;
+    padding: 50px 80px 50px 170px;
+}
+
+.left h1{
+    color: #001c49;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0px 0px 15px 0px;
+}
+
+.left input[type="submit"]{
+    background: #001c49;
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: .6rem;
+    border-radius: .8rem;
+    margin: 15px 0px 0px 0px;
+}
+
+.left input[type="submit"]:hover{
+    box-shadow: 2px 2px 2px 2px #153974;
+}
+
+.flavor-img{
+    flex: 1 1 400px;
+    padding: 50px 100px 50px 100px;
+}
+
+.flavor-img img{
+    display: inline-block;
+    height: 500px;
+}
+
+/* #################### malai styling ################# */
+
+.malai-conatiner{
+    display: block;
+    height: 80vh;
+}
+
+.malai-new{
+    height: 20vh;
+    margin-top: 40px;
+}
+
+.new{
+    padding: 30px, 0px,30px,0px;
+    background-color:#2D5449;
+    height: 60vh;
+    width: 100%;
+    border-radius: 20px 0px 70px 0px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-end;
+    
+}
+
+.new-text{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding: 40px 20px 10px 0px;
+}
+
+.new-img1{
+    justify-content: flex-end;
+    padding-left: 40px;
+    
+}
+
+.new-img1 img{
+    height: 600px;
+}
+
+.new-img1 a :hover{
+    box-shadow: 1px 1px 1px 1px rgb(205, 205, 205);
+}
+
+
+/* #################### buy styling ##################### */
+.buy-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+.buy-text{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    padding: 5vh;
+    text-align: center;
+}
+
+.buy-img{
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 9vw;
+}
+
+.buy-img img{
+    height: 55vh;
+    width: 23vw
+}
+
+.buy-button{
+    align-self: right;
+    margin-right: 10vw;
+    align-self: flex-end;
+}
+
+.buy-button input[type="submit"]{
+    background: #001c49;
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    padding: .6rem;
+    border-radius: .8rem;
+    margin: 15px 0px 0px 0px;
+}
+
+.buy-button input[type="submit"]:hover{
+    box-shadow: 2px 2px 2px 2px #153974;
+}
+
+/* ################ about styling ############### */
+
+.about-main{
+    height: 50vh;
+    background-image: linear-gradient(to bottom, #fff8ec 50%, #001c49 50%);
+    
+}
+
+.about-container{
+    padding: 30px, 0px,30px,0px;
+    background-color:#e2f6fa;
+    height: 50vh;
+    width: 100%;
+    border-radius: 70px 10px 10px 70px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    flex-basis: 1;
+}
+
+.about-left{
+    flex-basis: 1;
+    padding-left: 12vw;
+}
+
+.about-p{
+    flex-basis: 1;
+    width: 50%;
+    align-items: flex-end;
+    padding-right: 12vw;
+}
+
+.about-p p{
+    text-wrap: wrap;
+}
+
+.about-heading{
+    text-align: center;
+    color:#001c49;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.about-button input[type="submit"]{
+    background: #001c49;
+    color: #ffffff;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: .8rem;
+    border-radius: .6rem;
+    margin: 15px 0px 0px 0px;
+}
+
+.about-button input[type="submit"]:hover{
+    box-shadow: 2px 2px 2px 2px #153974;
+}
+/* ################ footer styling ############### */
+
+.footer-main{
+    height: 80vh;
+    background-color:#001c49;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-img{
+      margin: 4vh 2vw;
+}
+
+.footer-img img{
+    height: 35vh;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 40vh;
+    margin: 0vh 15% 3vh 10%;
+    flex-wrap: wrap;
+}
+
+.footer-link a{
+    padding: 0px 2vw 0px 2vw;
+}
+
+.footer-link a:link{
+    color: #ffffff;
+}
+
+.footer-link a:hover{
+    color: #45bed6;
+    /* text-decoration: underline; */
+}
+
+.footer-line{
+    margin: 0px 10vw 20vh 10vw;
+
+}
+
+.footer-line hr{
+    width: 80vw;
+    border-bottom: 3px solid #00bad5;
+    
+    
+}
+
